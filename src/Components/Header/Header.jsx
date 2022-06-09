@@ -12,10 +12,10 @@ const Header = () => {
                 <h5 className="text-light"> Full Stack Web Developer</h5>
                 <CTA />
                 <HeaderSocial />
-                <div className="profile-pic">
+
+                {/* <div className="profile-pic">
                     <img src={profilephoto} alt="Profile Pic" />
-                </div>
-                {/* <a href="#contact" className='scrol_down' >Scroll Down</a> */}
+                </div> */}
             </div>
         </header>
     );

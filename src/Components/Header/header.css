@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 7rem;
+    padding-top: 3rem;
     overflow: hidden;
 }
 
@@ -19,13 +19,12 @@ header {
 
 
 .header__social {
+    margin-top: 2.5rem;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.8rem;
-    position: absolute;
-    right: 0;
-    bottom: 3rem;
+    gap: 4rem;
+    justify-content: center;
+
+
 }
 
 .header__social::before {
@@ -42,27 +41,20 @@ header {
     background: var(--color-primary);
 }
 
-.profile-pic {
+/* .profile-pic {
+    background: linear-gradient(var(--color-primary), transparent);
+
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
-    height: 30rem;
-    border-radius: 50%;
-
+    height: 60rem;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 1rem;
     overflow: hidden;
-    /* padding: 5rem 1.5rem 1.5rem 1.5rem; */
-}
+} */
 
-.scrol_down {
-    position: absolute;
-    left: 2.3rem;
-    bottom: 5rem;
-    transform: rotate(90deg);
-}
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
     header {
         height: 68vh;
     }
@@ -73,8 +65,7 @@ header {
         height: 100vh;
     }
 
-    .header__social,
-    .scrol_down {
+    /* .header__social {
         display: none;
-    }
+    } */
 }
